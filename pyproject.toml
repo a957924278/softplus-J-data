@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softplus-j"
+version = "1.0.0"
+description = "Differentiable second-adiabatic-invariant omnigenity objectives and reproducibility package for Nuclear Fusion NF-109458."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "desc-opt",
+    "interpax",
+    "jax",
+    "matplotlib",
+    "netCDF4",
+    "numpy",
+    "scipy",
+]
+
+[tool.setuptools.packages.find]
+include = ["softplus_j*"]

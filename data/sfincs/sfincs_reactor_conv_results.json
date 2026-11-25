@@ -1,0 +1,192 @@
+{
+  "profile": "reactor (T0=3keV, p from VMEC)",
+  "note": "convergence scan: res2/res3/res4 at min_Bmn=1e-3; bmn scan at fixed (25,61,120,9)",
+  "results": [
+    {
+      "run": "run_s300_bmn1e-4",
+      "s": 0.3,
+      "kind": "bmn",
+      "tag": 0.0001,
+      "status": "ok",
+      "FSABjHat": 0.0423796507816367,
+      "B0OverBBar": 1.8226620713948827,
+      "nu_n": 0.008363394338295955,
+      "JB_phys_AT_m3": 297193.34012801066
+    },
+    {
+      "run": "run_s300_bmn1e-5",
+      "s": 0.3,
+      "kind": "bmn",
+      "tag": 1e-05,
+      "status": "ok",
+      "FSABjHat": 0.04089064832425451,
+      "B0OverBBar": 1.8226625795851463,
+      "nu_n": 0.008363394338295955,
+      "JB_phys_AT_m3": 286751.49821552425
+    },
+    {
+      "run": "run_s300_bmn5e-4",
+      "s": 0.3,
+      "kind": "bmn",
+      "tag": 0.0005,
+      "status": "ok",
+      "FSABjHat": 0.04493602069024147,
+      "B0OverBBar": 1.8226532042248822,
+      "nu_n": 0.008363394338295955,
+      "JB_phys_AT_m3": 315120.2483900812
+    },
+    {
+      "run": "run_s300_res2",
+      "s": 0.3,
+      "kind": "res",
+      "tag": "res2",
+      "status": "ok",
+      "FSABjHat": 0.034312288362899616,
+      "B0OverBBar": 1.8226499647529657,
+      "nu_n": 0.008363394338295955,
+      "JB_phys_AT_m3": 240619.81158240646
+    },
+    {
+      "run": "run_s300_res3",
+      "s": 0.3,
+      "kind": "res",
+      "tag": "res3",
+      "status": "ok",
+      "FSABjHat": 0.04370452517604749,
+      "B0OverBBar": 1.8226499647529641,
+      "nu_n": 0.008363394338295955,
+      "JB_phys_AT_m3": 306484.21061096486
+    },
+    {
+      "run": "run_s300_res4",
+      "s": 0.3,
+      "kind": "res",
+      "tag": "res4",
+      "status": "not_finished"
+    },
+    {
+      "run": "run_s500_bmn1e-4",
+      "s": 0.5,
+      "kind": "bmn",
+      "tag": 0.0001,
+      "status": "ok",
+      "FSABjHat": 0.0346878775679491,
+      "B0OverBBar": 1.8534059844483395,
+      "nu_n": 0.008299366414541678,
+      "JB_phys_AT_m3": 243253.68440358242
+    },
+    {
+      "run": "run_s500_bmn1e-5",
+      "s": 0.5,
+      "kind": "bmn",
+      "tag": 1e-05,
+      "status": "ok",
+      "FSABjHat": 0.033166190375499394,
+      "B0OverBBar": 1.8534068348993502,
+      "nu_n": 0.008299366414541678,
+      "JB_phys_AT_m3": 232582.63612892086
+    },
+    {
+      "run": "run_s500_bmn5e-4",
+      "s": 0.5,
+      "kind": "bmn",
+      "tag": 0.0005,
+      "status": "ok",
+      "FSABjHat": 0.039138529751497536,
+      "B0OverBBar": 1.8533950715472178,
+      "nu_n": 0.008299366414541678,
+      "JB_phys_AT_m3": 274464.5170504129
+    },
+    {
+      "run": "run_s500_res2",
+      "s": 0.5,
+      "kind": "res",
+      "tag": "res2",
+      "status": "ok",
+      "FSABjHat": 0.039142930535128476,
+      "B0OverBBar": 1.853383425928176,
+      "nu_n": 0.008299366414541678,
+      "JB_phys_AT_m3": 274495.37817272835
+    },
+    {
+      "run": "run_s500_res3",
+      "s": 0.5,
+      "kind": "res",
+      "tag": "res3",
+      "status": "ok",
+      "FSABjHat": 0.038719376281378504,
+      "B0OverBBar": 1.8533834259281792,
+      "nu_n": 0.008299366414541678,
+      "JB_phys_AT_m3": 271525.1436126096
+    },
+    {
+      "run": "run_s500_res4",
+      "s": 0.5,
+      "kind": "res",
+      "tag": "res4",
+      "status": "not_finished"
+    },
+    {
+      "run": "run_s800_bmn1e-4",
+      "s": 0.8,
+      "kind": "bmn",
+      "tag": 0.0001,
+      "status": "ok",
+      "FSABjHat": 0.016970807179027967,
+      "B0OverBBar": 1.8882114257224596,
+      "nu_n": 0.008017746532891619,
+      "JB_phys_AT_m3": 119010.2036515403
+    },
+    {
+      "run": "run_s800_bmn1e-5",
+      "s": 0.8,
+      "kind": "bmn",
+      "tag": 1e-05,
+      "status": "ok",
+      "FSABjHat": 0.016783310957964172,
+      "B0OverBBar": 1.8882142046284232,
+      "nu_n": 0.008017746532891619,
+      "JB_phys_AT_m3": 117695.35968346603
+    },
+    {
+      "run": "run_s800_bmn5e-4",
+      "s": 0.8,
+      "kind": "bmn",
+      "tag": 0.0005,
+      "status": "ok",
+      "FSABjHat": 0.017782585363263555,
+      "B0OverBBar": 1.888197836615425,
+      "nu_n": 0.008017746532891619,
+      "JB_phys_AT_m3": 124702.91384538087
+    },
+    {
+      "run": "run_s800_res2",
+      "s": 0.8,
+      "kind": "res",
+      "tag": "res2",
+      "status": "ok",
+      "FSABjHat": 0.017465488774593658,
+      "B0OverBBar": 1.8882004669370513,
+      "nu_n": 0.008017746532891619,
+      "JB_phys_AT_m3": 122479.22883165635
+    },
+    {
+      "run": "run_s800_res3",
+      "s": 0.8,
+      "kind": "res",
+      "tag": "res3",
+      "status": "ok",
+      "FSABjHat": 0.018985903732763293,
+      "B0OverBBar": 1.8882004669370522,
+      "nu_n": 0.008017746532891619,
+      "JB_phys_AT_m3": 133141.35538213784
+    },
+    {
+      "run": "run_s800_res4",
+      "s": 0.8,
+      "kind": "res",
+      "tag": "res4",
+      "status": "not_finished"
+    }
+  ]
+}

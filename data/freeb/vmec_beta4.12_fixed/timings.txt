@@ -1,0 +1,66 @@
+ ====================== PARALLEL TIMINGS ====================
+               total  :       32.398254
+                rank  :               0
+mgrid file read time  :        0.000000
+        No. of procs  :              32
+
+      --- non-vacuum  :            1551             33             16       2.735710
+      --- non-vacuum  :            1968             65             32       3.608922
+      --- non-vacuum  :            2239            129             32       6.734054
+      --- non-vacuum  :            3727            257             32      17.662376
+
+             runvmec  :       32.397672
+
+         init radial  :        0.000000
+             eqsolve  :       30.938432
+             fileout  :        1.266137
+
+              evolve  :       30.891407
+             funct3d  :       30.741063
+            nfunct3d  :            9495
+
+             totzsps  :        6.750019
+             totzspa  :        0.000000
+              symrzl  :        0.000000
+            jacobian  :        2.661350
+              bcovar  :        3.356233
+              vacuum  :        0.000000
+
+            - precal  :        0.000000
+           - surface  :        0.000000
+
+           - bextern  :        0.000000
+
+           -- becoil  :        0.000000
+           -- tolicu  :        0.000000
+           -- belicu  :        0.000000
+
+           - scalpot  :        0.000000
+
+           -- analyt  :        0.000000
+           -- greenf  :        0.000000
+            -- fourp  :        0.000000
+            -- fouri  :        0.000000
+
+            - solver  :        0.000000
+
+               alias  :        2.614385
+              forces  :        1.982340
+           symforces  :        0.000000
+             tomnsps  :        5.554735
+             tomnspa  :        0.000000
+             residue  :        7.587251
+          -- tridslv  :        4.468107
+
+ ============================================================
+
+           allgather  :        3.511779
+           allreduce  :        2.373528
+           broadcast  :        0.023448
+           sendrecv   :        0.586828
+
+     Fill_blocks      :        0.000000
+     Compute blocks   :        0.000000
+     Forward solve    :        0.000000
+     Backward solve   :        0.000000
+ ============================================================

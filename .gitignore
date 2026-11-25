@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+figures/
+data/freeb/mgrid_*.nc
+data/freeb/*/jxbout_*.nc
+.DS_Store
