@@ -56,6 +56,8 @@ def setup_matplotlib(font_size: float = 9.0) -> None:
             "ytick.labelsize": font_size - 0.5,
             "legend.fontsize": font_size - 0.5,
             "axes.linewidth": 0.7,
+            "axes.spines.top": True,
+            "axes.spines.right": True,
             "lines.linewidth": 1.5,
             "xtick.major.width": 0.7,
             "ytick.major.width": 0.7,

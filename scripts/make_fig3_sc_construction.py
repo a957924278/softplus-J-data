@@ -8,6 +8,7 @@ import warnings
 
 import matplotlib.pyplot as plt
 import numpy as np
+import desc.plotting  # noqa: F401 - initialize before setup_matplotlib sets rcParams
 from fig_common import (
     COLORS,
     boozer_spectral_data,
@@ -148,7 +149,15 @@ def main() -> None:
     ax_map.set_xlabel(r"$\zeta_{\mathrm{Boozer}}$")
     ax_map.set_ylabel(r"$\theta_{\mathrm{Boozer}}$")
     ax_map.set_title("(a) Fitted connectivity curves", loc="left")
-    ax_map.legend(loc="upper center", ncols=2, handlelength=1.8)
+    ax_map.legend(
+        loc="upper center",
+        ncols=2,
+        handlelength=1.8,
+        frameon=True,
+        facecolor="white",
+        framealpha=0.88,
+        edgecolor="0.75",
+    )
 
     # Use the fitted spline, rather than sampled |B| extrema, to define the
     # decreasing and increasing portions of one complete max-to-max branch.

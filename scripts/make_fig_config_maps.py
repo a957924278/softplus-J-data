@@ -8,6 +8,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import Normalize
+import desc.plotting  # noqa: F401 - initialize before setup_matplotlib sets rcParams
 
 from fig_common import (
     boozer_spectral_data,

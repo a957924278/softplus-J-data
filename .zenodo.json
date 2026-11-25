@@ -1,0 +1,46 @@
+{
+  "title": "Code and Data Package: Direct Optimization of Stellarator Omnigenity from the Second Adiabatic Invariant",
+  "description": "Standalone Python/JAX DESC implementation of the differentiable action-residual objective (f_J), soft-connectivity regularizer (f_SC), and SplineZetaMin parameterization, together with final equilibria, modular coils, verification datasets (SIMPLE, NEO, COBRA, SFINCS, vacuum Poincare, and VMEC2000 free-boundary outputs), and figure-reproduction scripts supporting Nuclear Fusion manuscript NF-109458.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Chen, Hanlin",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences; University of Science and Technology of China"
+    },
+    {
+      "name": "Lu, Zhiyuan",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences"
+    },
+    {
+      "name": "Xu, Guosheng",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences"
+    },
+    {
+      "name": "Cao, Shuai",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences; University of Science and Technology of China"
+    },
+    {
+      "name": "Han, Yang",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences; University of Science and Technology of China"
+    },
+    {
+      "name": "Chen, Dehong",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences"
+    },
+    {
+      "name": "Wan, Baonian",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences"
+    }
+  ],
+  "keywords": [
+    "stellarator",
+    "omnigenity",
+    "second adiabatic invariant",
+    "DESC",
+    "automatic differentiation",
+    "quasi-isodynamic",
+    "magnetic confinement fusion"
+  ]
+}

@@ -207,32 +207,12 @@ def main() -> None:
     ax_a.set_xlabel(r"normalized radius $\rho$")
     ax_a.set_ylabel(r"normalized pitch $t$")
     ax_a.set_title(r"(a) Vacuum ($\beta=0$)", loc="left", pad=5)
-    ax_a.text(
-        0.52,
-        0.24,
-        r"$\partial_\rho J > 0$",
-        fontsize=7.4,
-        color="#7A1C1C",
-        ha="center",
-        bbox={"fc": "white", "ec": "none", "alpha": 0.72, "pad": 1.3},
-    )
 
     pcm_b = ax_b.pcolormesh(R, T, g_fin, cmap="RdBu_r", norm=norm, shading="gouraud")
     ax_b.set_xlabel(r"normalized radius $\rho$")
     ax_b.set_ylabel("")
     ax_b.set_yticklabels([])
     ax_b.set_title(r"(b) $\langle\beta\rangle=4.12\%$ ($I_{\mathrm{tor}}=0$)", loc="left", pad=5)
-    ax_b.text(
-        0.535,
-        0.52,
-        "100% max-$J$\n" + r"($\partial_\rho J < 0$ everywhere)",
-        fontsize=7.3,
-        color="#08306B",
-        weight="bold",
-        ha="center",
-        va="center",
-        bbox={"fc": "white", "ec": "none", "alpha": 0.62, "pad": 2.0},
-    )
 
     cbar = fig.colorbar(
         pcm_b,
